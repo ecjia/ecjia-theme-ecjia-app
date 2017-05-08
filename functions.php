@@ -55,7 +55,7 @@ RC_Hook::add_action('intro/index/init', function () {
     
     if (!ecjia_front::$controller->is_cached('index.dwt', $cache_id)) {
         //首页url
-        $main_url = RC_Uri::url('main/index/init');
+        $main_url = RC_Uri::home_url();
         $main_url = str_replace('sites/app/', '', $main_url);
         ecjia_front::$controller->assign('main_url', $main_url);
          
