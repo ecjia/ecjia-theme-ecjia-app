@@ -310,7 +310,7 @@ a {
 	border-radius: 8px;
 }
 
-.wt-introduce .qrcode-item:last-child {
+.wt-introduce .qrcode-item.last {
 	margin-left: 70px;
 }
 

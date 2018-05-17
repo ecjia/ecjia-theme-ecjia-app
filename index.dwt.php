@@ -29,15 +29,17 @@
         <div class="ecjia-container">
             <div class="ecjia-content">
                 <div class="ecjia-fl wt-introduce">
-                    <p class="title">EC+到家</p>
-                    <p class="title">同城上门O2O解决方案</p>
-                    <p class="title-notice">发掘最后一公里，上门电商的全新机遇</p>
+                    <p class="title">{$mobile_app_name}</p>
+                    <p class="title"><!-- #BeginLibraryItem "/library/shop_subtitle.lbi" --><!-- #EndLibraryItem --></p>
+                    <p class="title-notice"><!-- #BeginLibraryItem "/library/brief_intro.lbi" --><!-- #EndLibraryItem --></p>
                     <div class="qrcode">
+                        {if $has_weapp}
                         <div class="qrcode-item">
                             <div class="img"><img src="{RC_Uri::url('weapp/wxacode/init')}" width="200" height="200" /></div>
                             <p>扫码体验小程序</p>
                         </div>
-                        <div class="qrcode-item">
+                        {/if}
+                        <div class="qrcode-item {if $has_weapp}last{/if}">
                             <div class="img"><img src="{$touch_qrcode}" width="200" height="200" /></div>
                             <p>扫码体验H5</p>
                         </div>
@@ -87,7 +89,7 @@
                         <div class="title">三步教你如何使用APP</div>
                         <div class="content">
                             <img class="background" src="{$theme_url}images/casing.png" />
-                            <img class="inner" src="{$touch_qrcode}" />
+                            <img class="inner" src="{$street_qrcode}" />
                             <p>扫店铺二维码</p>
                             <img class="bottom" src="{$theme_url}images/arrow.png" />
                         </div>
