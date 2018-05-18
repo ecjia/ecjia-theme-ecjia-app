@@ -563,7 +563,8 @@ box-align:center;
 
 .ecjia-title {
 	color: #333;
-	text-align: center
+	text-align: center;
+	margin-top: 80px;
 }
 
 .ecjia-title p {
@@ -585,6 +586,7 @@ box-align:center;
 	text-align: center;
 	font-size: 36px;
 	color: #333;
+	margin-top: 80px;
 }
 
 .cly-tab-content {

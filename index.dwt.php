@@ -54,7 +54,7 @@
             </div>
 
             <div class="ecjia-content">
-                <div class="ecjia-title wt-50">
+                <div class="ecjia-title">
                     <h1 class="fsize-36">商家和配送员可使用原生APP</h1>
                     <p class="top-title">与商城完美对接的原生APP，下载并安装成功后，商家可通过手机掌柜</p>
                     <p class="bottom-title">随时随地管理店铺、商城配送员可通过配送员APP在线抢单、送单并获得相应的配送费用</p>
@@ -123,7 +123,7 @@
                 </div>
                     
                 <div class="clyimges">
-                    <div class="cly-title wt-50">界面精彩截图</div>
+                    <div class="cly-title">界面精彩截图</div>
                     <div class="cly-tab">
                         <div class="cly-tab-content">
                             <div class="tab-li active" data-tab="shopkeeper">到家掌柜</div>
