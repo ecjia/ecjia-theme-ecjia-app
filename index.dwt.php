@@ -90,7 +90,7 @@
                 </div>
                 <div class="right-side ecjia-fr p_r0">
                     <p class="title">
-                        <span class="num">1</span>ECJia掌柜</p>
+                        <span class="num">1</span>掌柜</p>
                     <p class="notice">与我们商城后台完美同步，下载此APP后，可使用入驻商家账号直接登录，使用手机随时随地高效管理自己的店铺、商品、订单等。</p>
                     <div class="button-item">
                         <a class="ecjia-btn icon-btn green" href="https://itunes.apple.com/cn/app/ec-%E6%8E%8C%E6%9F%9C/id1015857619?mt=8" target="_blank">
@@ -104,7 +104,7 @@
             <div class="content-item">
                 <div class="right-side ecjia-fl">
                     <p class="title">
-                        <span class="num">2</span>ECJia配送员</p>
+                        <span class="num">2</span>配送员</p>
                     <p class="notice w91">适用于商城配送员使用，如果您已成为我们的配送员，你可下载安装此APP，获取周边商家的订单，随时随地在线抢单、取货、配送等。</p>
                     <div class="button-item">
                         <a class="ecjia-btn icon-btn green" href="https://itunes.apple.com/cn/app/ec-%E9%85%8D%E9%80%81%E5%91%98/id1198119772?mt=8"
