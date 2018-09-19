@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0, minimal-ui">
     <title>{$page_title}</title>
     <link rel="stylesheet" href="{$theme_url}/js/swiper/swiper.css">
-    <link rel="stylesheet" href="{$theme_url}/css/style.css?16">
+    <link rel="stylesheet" href="{$theme_url}/css/style.css?19">
     <script type="text/javascript" src="{$theme_url}/js/swiper/swiper.js"></script>
     <script type="text/javascript" src="{$theme_url}/js/jquery.min.js"></script>
 </head>
