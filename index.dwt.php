@@ -31,6 +31,9 @@
                         <a href="javascript:;">下载APP</a>
                     </li>
                     <li>
+                        <a class="nopjax" href="{$member_url}" target="_blank">会员中心</a>
+                    </li>
+                    <li>
                         <a class="nopjax" href="{$merchant_url}" target="_blank">商家入驻</a>
                     </li>
                     <li>
