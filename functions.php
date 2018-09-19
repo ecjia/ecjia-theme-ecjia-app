@@ -60,7 +60,7 @@ RC_Hook::add_action('intro/index/init', function () {
         ecjia_front::$controller->assign('main_url', $main_url);
 
         //会员中心
-        $this_url     = RC_Uri::home_url();
+        $this_url     = RC_Uri::site_url();
         $member_url   = str_replace('sites/app', 'sites/member', $this_url);
         ecjia_front::$controller->assign('member_url', $member_url);
         
