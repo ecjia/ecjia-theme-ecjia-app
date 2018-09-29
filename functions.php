@@ -149,8 +149,10 @@ RC_Hook::add_action('intro/index/init', function () {
         ecjia_front::$controller->assign('shop_wechat_qrcode', $shop_wechat_qrcode);
         ecjia_front::$controller->assign('powered', 'Powered&nbsp;by&nbsp;<a href="https:\/\/ecjia.com" target="_blank">ECJia</a>');
 
-        RC_Loader::load_app_class('platform_account', 'platform', false);
-        $platform_list = platform_account::getAccountList('weapp');
+        $platform_list = RC_Api::api('platform', 'platform_account_list', [
+            'shop_id' => 0,
+            'platform' => 'weapp',
+        ]);
         if (!empty($platform_list)) {
             ecjia_front::$controller->assign('has_weapp', true);
         }
