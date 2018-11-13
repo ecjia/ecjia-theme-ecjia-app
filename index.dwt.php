@@ -338,6 +338,7 @@
             </div>
             <div class="footer-links">
                 <p>
+                    {$shop_info_html}
                     <!-- {foreach from=$shop_info item=rs} -->
                     <a class="data-pjax" href="{$rs.url}" target="_blank">{$rs.title}</a>
                     <!-- {/foreach} -->
