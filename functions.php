@@ -147,7 +147,8 @@ RC_Hook::add_action('intro/index/init', function () {
             'shop_id' => 0,
             'platform' => 'weapp',
         ]);
-        if (!empty($platform_list)) {
+        $data = $platform_list->toArray();
+        if (!empty($data)) {
             ecjia_front::$controller->assign('has_weapp', true);
         }
     }
