@@ -114,6 +114,12 @@ RC_Hook::add_action('intro/index/init', function () {
             }
         }
 
+        $data = array(
+            'powered' => 'Powered&nbsp;by&nbsp;<a href="https:\/\/ecjia.com" target="_blank">ECJia</a>',
+        );
+
+        $data = RC_Hook::apply_filters('ecjia_general_info_filter', $data);
+
         ecjia_front::$controller->assign_title();
 
         ecjia_front::$controller->assign('screenshots', $screenshots);
@@ -141,7 +147,7 @@ RC_Hook::add_action('intro/index/init', function () {
         ecjia_front::$controller->assign('touch_qrcode', $mobile_touch_qrcode);
         ecjia_front::$controller->assign('shop_logo', $shop_logo);
         ecjia_front::$controller->assign('shop_wechat_qrcode', $shop_wechat_qrcode);
-        ecjia_front::$controller->assign('powered', 'Powered&nbsp;by&nbsp;<a href="https:\/\/ecjia.com" target="_blank">ECJia</a>');
+        ecjia_front::$controller->assign('commoninfo', 	        $data);
 
         $platform_list = RC_Api::api('platform', 'platform_account_list', [
             'shop_id' => 0,
