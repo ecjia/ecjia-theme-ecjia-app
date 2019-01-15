@@ -143,7 +143,7 @@
                         <span class="num">4</span>收银通</p>
                     <p class="notice w91">专门为零售商户量身打造的一款高效，便捷的收银工具，您可使用此APP快捷地进行开单、收款、验单、退款、会员、统计、小票打印等操作，同时还可使用微信、支付宝、刷卡等多种主流收款方式，为您提供一站式收银、管理、运营的金融解决方案！</p>
                     <div class="button-item">
-                        <a class="ecjia-btn icon-btn blue" href="https://fir.im/svw7" target="_blank">
+                        <a class="ecjia-btn icon-btn blue" href="https://shouji.baidu.com/software/25429454.html" target="_blank">
                             <i class="android icon"></i>Android端下载</a>
                     </div>
                 </div>
