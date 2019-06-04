@@ -161,6 +161,6 @@ RC_Hook::add_action('intro/index/init', function () {
         }
     }
 
-    ecjia_front::$controller->display('index.dwt', $cache_id);
+    return ecjia_front::$controller->display('index.dwt', $cache_id);
 
 }); //首页
